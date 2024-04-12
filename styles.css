@@ -1,0 +1,190 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("assets/img/fundo\ de\ tela.jpg"); no-repeat center center fixed;
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;    
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Defina a largura desejada */
+    height: 720px; /* Defina a altura desejada */
+    position: fixed; /* Fixa o elemento na página */
+    top: 50%; /* Alinha o topo da caixa ao centro vertical */
+    right: 30px; /* Define a margem direita desejada */
+    transform: translateY(-50%); /* Corrige o posicionamento vertical */
+}
+.button-text {
+    border: 10px solid #000; /* Adiciona uma borda de 2px de largura e cor preta */
+    padding: 10px; /* Adiciona um espaçamento interno para separar a borda do texto */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-group{
+    width: 80%;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1E9ACF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; 
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover,
+button:focus {
+    background-color: #14709E; /* Cor quando o mouse está em cima do botão ou ele está focado */
+}
+
+button:active {
+    background-color: #0B4E72; /* Cor quando o botão está sendo clicado */
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #E8F1F2;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1E9ACF;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #14709E;
+}
+
+.info-box {
+    text-align: left; /* Alinhe o texto à esquerda para uma melhor leitura */
+    background-color: #f9f9f9; /* Cor de fundo mais clara */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Margem para centralizar na página */
+    max-width: 600px; /* Largura máxima da caixa */
+}
+
+.info-box h3 {
+    color: #333; /* Cor do título */
+    font-size: 24px; /* Tamanho do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.info-box ul {
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover espaçamento interno da lista */
+    margin-bottom: 20px; /* Espaçamento abaixo da lista */
+}
+
+.info-box ul li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
+
+.info-box ul li img {
+    width: 24px; /* Tamanho dos ícones */
+    height: 24px;
+    margin-right: 10px; /* Espaçamento à direita dos ícones */
+}
+
+.info-box p {
+    margin-bottom: 10px; /* Espaçamento abaixo dos parágrafos */
+}
+
+.info-box a {
+    color: rgb(22, 25, 29); /* Cor do link */
+    text-decoration: none; /* Remover sublinhado do link */
+}
+
+.info-box a:hover {
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse sobre o link */
+}
+.pagina-eletronica {
+        color: #888; /* Define uma cor cinza para o texto */
+}
+h4 ul li {
+    color: #006494; /* Define a cor do texto dentro das caixas*/
+}
+h4 {
+    color: #333; /* Define a cor do texto dentro do elemento h4 */
+}
+h1 {
+    font-size: 30px; /* Ajuste o tamanho da fonte conforme desejado */
+    font-family: 'Arial', sans-serif; /* Escolha uma fonte que seja chamativa e legível */
+    color: #333; /* Escolha uma cor de texto que contraste bem com o fundo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adicione uma sombra ao texto para destacá-lo */
+    margin-bottom: 20px; /* Adicione um espaçamento abaixo do título */
+}
+.confirm-box {
+    background-color: #f9f9f9; /* Cor de fundo da caixa */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin: 20px auto; /* Margem para centralizar na página */
+    max-width: 600px; /* Largura máxima da caixa */
+    text-align: left;
+}
+
+.confirm-box p {
+    margin-bottom: 10px; /* Espaçamento abaixo dos parágrafos */
+    line-height: 1.6; /* Espaçamento entre as linhas */
+}
+
+.btn {
+    display: block; /* Mostrar o link como um bloco */
+    margin-bottom: 20px; /* Adicionar espaço abaixo do link */
+}
+.confirm-box {
+    background-color: #f9f9f9;
+    padding: 4.4px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Adiciona um espaçamento superior */
+    max-width: 600px; /* Define a largura máxima */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto;
+    text-align: left; /* Alinha o texto justificado */
+    font-size: 14px;
+}
